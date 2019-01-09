@@ -7,7 +7,7 @@ set (Tutorial_VERSION_MINOR 0)
 # configure a header file to pass some of the CMake settings
 # to the source code
 configure_file (
-  "${PROJECT_SOURCE_DIR}/TutorialConfig.h.in"
+  "${PROJECT_SOURCE_DIR}/TutorialConfig.h"
   "${PROJECT_BINARY_DIR}/TutorialConfig.h"
   )
  
